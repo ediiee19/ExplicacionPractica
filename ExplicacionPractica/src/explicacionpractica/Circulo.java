@@ -12,12 +12,12 @@ public class Circulo {
     /*requisito
     estos requisitos pueden variar y haber mas o menos, 
     todo depende de los compnentes del objeto*/
-   private double radio;
+   private float radio;
    
     /*constructor
     esto se puede decir metaforicamente
     como la base de una construcion*/
-    public Circulo(double radio) {
+    public Circulo(float radio) {
         this.radio = radio;
     }
     
@@ -27,7 +27,7 @@ public class Circulo {
         return radio;
     }
 
-    public void setRadio(double radio) {
+    public void setRadio(float radio) {
         this.radio = radio;
     }
     
